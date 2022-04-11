@@ -1,10 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import TheWelcome from './components/TheWelcome.vue'
+import Hero from './components/Hero.vue'
 </script>
 
 <template>
-  <header>
+  <Hero/>
+  <!-- <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
@@ -14,7 +16,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <main>
     <TheWelcome />
-  </main>
+  </main> -->
 </template>
 
 <style>
@@ -23,11 +25,11 @@ import TheWelcome from './components/TheWelcome.vue'
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
 
   font-weight: normal;
 }
-
+/* 
 header {
   line-height: 1.5;
 }
@@ -77,5 +79,5 @@ a,
   .logo {
     margin: 0 2rem 0 0;
   }
-}
+} */
 </style>
